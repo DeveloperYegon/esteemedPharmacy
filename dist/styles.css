@@ -1,0 +1,243 @@
+*, html {
+  box-sizing: border-box;
+  margin: 0;
+  color: #000;
+}
+
+nav {
+  display: grid;
+  top: 0;
+  position: fixed;
+  grid-template-columns: repeat(3, 1fr);
+  height: 65px;
+  padding-top: 10px;
+  background-color: #046532;
+  width: 100%;
+  padding-left: 40px;
+}
+
+.toggle-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sidebar {
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  transform: translate(0);
+  height: 200px;
+  width: 20%;
+  padding: 20px;
+}
+
+.links {
+  padding: 15px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  padding: 10px;
+  transition: all;
+}
+
+.show-sidebar {
+  transform: translate(-100%);
+}
+
+main {
+  background-color: #fff;
+  margin-top: 80px;
+}
+
+.our-products {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.products {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  margin: 3px;
+}
+
+.slogan {
+  width: 100%;
+  margin: 20px 10px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+}
+
+.price {
+  border: #05E06D solid 2px;
+  text-align: center;
+}
+
+#amount {
+  font-weight: 1000;
+}
+
+.fa-plus {
+  border-radius: 5px;
+}
+
+.slogan:hover {
+  box-shadow: 5px 5px #000;
+}
+
+.mission, .vision, .why-choose-us, .cover-letter {
+  width: 100%;
+  background-color: #d9d9d9;
+  color: #000;
+  border-radius: 10px;
+  margin: 20px 10px;
+  padding: 30px;
+  text-align: center;
+}
+
+.mission, .vision:hover {
+  box-shadow: 5px 5px #000;
+}
+
+.title {
+  font-weight: 800;
+  margin: auto;
+}
+
+.choose-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.option {
+  background-color: #05E06D;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 15px;
+}
+
+.option:hover {
+  box-shadow: 5px 5px #000;
+}
+
+.logins {
+  background-color: #fff;
+}
+
+.logo-side {
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.in-title {
+  margin: auto;
+  text-align: center;
+}
+
+.in-title h1 {
+  margin: auto;
+}
+
+input {
+  width: 95%;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.email-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.password-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.signup-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#login-btn {
+  height: 30px;
+  background-color: #046532;
+  width: 50%;
+  font-size: larger;
+  border-radius: 10px 0px 10px 0px;
+}
+
+.signup-section {
+  border: #000 2px solid;
+  margin: 20px 20px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.signups {
+  background-image: url(/images/image\ 8.png);
+  background-size: cover;
+  height: 160vh;
+}
+
+.title {
+  margin: auto;
+  text-align: center;
+}
+
+.signup-btn {
+  margin: 20px 20px;
+}
+
+#signup-btn {
+  background-color: #046532;
+  width: 50%;
+  height: 30px;
+  font-size: larger;
+  border-radius: 10px 0px 10px 0px;
+}
+
+.login-option {
+  border: #000 2px solid;
+  margin: 20px 20px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.checkout {
+  background-color: #d9d9d9;
+  height: 100vh;
+}
+
+.picked-items {
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.totals {
+  text-align: center;
+  margin-top: 10px;
+}/*# sourceMappingURL=styles.css.map */
