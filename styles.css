@@ -32,27 +32,38 @@ nav {
 /* ============================sidebar=================== */
 .sidebar {
   position: fixed;
-  background-color: #fff;
-  top: 0;
+  color: #000;
+  font-weight: 1000;
+  top: 78px;
   left: 0;
   transform: translate(0);
-  height: 200px;
+  height: 100vh;
+  background-color:#046532;
   width: 20%;
-  padding: 20px;
+  text-align: center;
+  padding-top: 50px;
+  /* padding: 20px; */
 }
 
 .links {
-  padding: 15px;
+  /* padding: 150px; */
   list-style: none;
+  line-height: 80px;
+}
+.social-links{
+  margin-top: 50px;
+  border-top: 2px solid #fff;
+  padding: 10px;
 }
 
 a {
   text-decoration: none;
+  color:rgb(0,0,255)
 }
 
 a:hover {
   color: red;
-  padding: 10px;
+  /* padding: 10px; */
   transition: all;
 }
 
@@ -61,9 +72,20 @@ a:hover {
 }
 /* ==============================main section================================ */
 main {
+  background-image: url(/images/image\ 8.png);
+  background-size: cover;
   background-color: #fff;
- border: solid 1px #05E06D;
+ /* border: solid 1px #05E06D; */
   margin-top: 80px;
+}
+.labeler{
+  margin-left: 40px;
+
+}
+.labeler::after{
+  content: "*";
+  color:rgb(255,0,0);
+
 }
 
 .our-products {
@@ -106,23 +128,6 @@ main {
   box-shadow: 5px 5px #05E06D;
 }  
 
-
-.login-btn {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-#login-btn {
-  height: 30px;
-  background-color: #046532;
-  width: 50%;
-  font-size: larger;
-  text-transform: uppercase;
-  color: #fff;
-  border-radius: 10px;
-}
-
-
 .title {
   font-weight: 800;
   margin: auto;
@@ -143,7 +148,6 @@ main {
 .option:hover {
   box-shadow: 5px 5px #000;
 }  
-/* ===============================================================login customizations =================================*/
 .logins {
   background-color: #fff;
 }  
@@ -157,12 +161,10 @@ main {
 .in-title {
   margin: auto;
   text-align: center;
+  text-transform: uppercase;
+  font-family: cursive;
+  /* text-transform: uppercase; */
 }  
-
-.in-title h1 {
-  margin: auto;
-}  
-
 input {
   width: 95%;
   margin: 20px;
@@ -179,36 +181,30 @@ input {
   margin-top: 20px;
   margin-bottom: 20px;
 }  
-
-.signup-section {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}  
-.signup-section {
-  border: #000 2px solid;
-  margin: 20px 20px;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-}
-
+/*======================= signup customizations=============================== */
 .signups {
   background-image: url(/images/image\ 8.png);
   background-size: cover;
-  height: 160vh;
+  height: 80vh;
 }
+
 
 .title {
   margin: auto;
   text-align: center;
 }
 
-.signup-btn {
-  margin: 20px 20px;
+.signup-btn, .login-btn {
+  margin: auto auto;
+  width: 40%;
+  /* border: #000 2px solid; */
+  
 }
 
 #signup-btn {
   background-color: #046532;
+  margin: auto auto;
+  text-transform:uppercase ;
   width: 50%;
   height: 30px;
   font-size: larger;
@@ -216,17 +212,34 @@ input {
   color: #fff;
 }
 
-.login-option {
+.login-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#login-btn {
+  height: 30px;
+  background-color: #046532;
+  width: 50%;
+  font-size: larger;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 10px;
+} 
+
+
+.signup-section ,.login-option {
   /* border: #000 2px solid; */
   margin: 20px 20px;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
 }
+/* ===============================================================checkout customizations =================================*/
 
 .checkout {
   background-color: #d9d9d9;
-  height: 100vh;
+  height: 78vh;
 }
 
 .picked-items {
@@ -242,4 +255,8 @@ table, th, td {
 .totals {
   text-align: center;
   margin-top: 10px;
-}/*# sourceMappingURL=styles.css.map */
+}
+.copyright{
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
